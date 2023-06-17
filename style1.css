@@ -1,0 +1,9 @@
+.label{
+    margin: 20px 20px 20px 20px;
+    
+}
+.cflex{
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}

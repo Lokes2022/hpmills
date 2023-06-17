@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application form|HP mills</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<form action="post" class="form label">
+    <h1 class="label cflex">Application Form</h1>
+    <div class="mail label cflex">
+        <label for="mail1" class="label"> Primary e-mail Id:</label>
+        <input class="label" type="email" name="mail1" id="mail1" required placeholder="abc@xyz.com" size="18" title="Please provide active mail id">
+        <label for="mail2" class="label"> Secondary e-mail Id:</label>
+        <input class="label" type="email" name="mail2" id="mail2" placeholder="abc@xyz.com" size="18" title="Please provide active mail id">
+
+    </div>
+    <div class="sec label cflex">
+        <label class="label" for="fname">First name:</label><input class="label" type="text" id="fname" required size="15" 
+        maxlength="25" name="fname">
+        <label class="label" for="lname">Last name:</label><input class="label" type="text" id="lname" required size="15" 
+        maxlength="25" name="lname">
+    </div>
+    <div class="three label cflex">
+        <label class="label" for="dob">D. O. B:</label>
+        <input class="label" type="date" name=""dob id="dob" max="2002-12-31" min="1982-01-01" required title="Date Of Birth">
+        <label class="label" for="exp">Level of Experience:</label>
+        <select class="label" required name="exp" id="exp">
+            <option value=""></option>
+            <option value="0">Fresher</option>
+            <option value="beginner">>2</option>
+            <option value="intermidiate">3-5</option>
+            <option value="well-exp">5<</option>
+        </select>
+    </div>
+    <div class="four label cflex">
+        <label class="label" for="hig">Highest Qualification:</label>
+        <input class="label" type="text" name="hig" id="hig" size="5" required>
+        <label class="label" for="higm">Job Id:</label>
+        <input class="label" type="text" name="higm" id="higm" size="5" placeholder="#12ab" required>
+        <label class="label" for="ctc">Expected CTC:</label>
+        <select class="label" name="ctc" id="ctc" required><option value=""></option>
+        <option value="any">Any</option>
+    <option value="4">4 LPA</option><option value="5">5 LPA</option>
+    <option value="5+">5<</option>
+</select>
+    </div>
+    <div class="five label cflex">
+        <label for="add" class="label">Address:</label>
+        <textarea class="label" name="add" id="add" cols="30" rows="5" required placeholder="address"></textarea>
+        <div class="additional">
+            <label class="label" for="phone1">Mobile Number:</label>
+            <input class="label" type="tel" name="phone1" id="phone1" required minlength="10" maxlength="10" size="10">
+            <label class="label" for="phone2">Additional Number:</label>
+            <input class="label" type="tel" name="phone2" id="phone2"  minlength="10" maxlength="10" size="10">
+        </div>
+    </div>
+    <div class="fivesix label cflex">
+    <label for="file" class="label">Upload Resume:</label>
+    <input class="label" name="file" id="file" type="file" accept=".pdf,.jpeg,.jpg,.png" required>
+</div>
+<div class="six label cflex">
+    <label class="label" for="des"></label>
+    <textarea class="label" name="des" id="des" cols="30" rows="6" placeholder="text about you"></textarea>
+    <label class="label" for="des"></label>
+    <textarea class="label" name="des" id="des" cols="30" rows="6" placeholder="any queries"></textarea>
+</div>
+<div class="seven label cflex">
+    <input type="radio" name="radio" id="radio" required>
+    <label for="radio" class="label"> I accept to the terms and condition</label>
+</div>
+<div class="label eight cflex">
+    <input class="label" type="reset" accesskey="q">
+    <input class="label" type="submit" accesskey="w">
+</div>
+</form>  
+</body>
+</html>
